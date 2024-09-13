@@ -5,8 +5,8 @@ Quick script to crawl a website and find broken links. Generates a markdown repo
 install
 
 ```bash
-git clone ...
-cd repo
+git clone https://github.com/ff6347/find-broken-links.git
+cd find-broken-links
 npm ci
 ```
 
