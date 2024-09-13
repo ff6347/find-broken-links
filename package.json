@@ -1,0 +1,23 @@
+{
+  "name": "broken-links",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:server": "reload --dir ./test-page/"
+  },
+  "keywords": [],
+  "author": "ff6347 <hash@ff6347.email>",
+  "license": "MIT",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "broken-link-checker": "0.7.8",
+    "tsx": "4.19.1",
+    "yocto-spinner": "0.1.0"
+  },
+  "devDependencies": {
+    "@types/broken-link-checker": "0.7.3",
+    "reload": "3.3.0"
+  }
+}
